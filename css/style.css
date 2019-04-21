@@ -1,0 +1,83 @@
+@font-face{
+	src:url(../fonts/Brandon_bld.ttf);
+	font-family: Brandon_bld;
+}
+@font-face{
+	src:url(../fonts/Brandon_light.ttf);
+	font-family: Brandon_light;
+}
+@font-face{
+	src:url(../fonts/Brandon_med.ttf);
+	font-family: Brandon_med;
+}
+@font-face{
+	src:url(../fonts/Brandon_reg.ttf);
+	font-family: Brandon_reg;
+}
+@font-face{
+	src:url(../fonts/Cubano-Regular.ttf);
+	font-family: Cubano-Regular;
+}
+/*body start*/
+body{
+	font-family:Brandon_bld ;
+	color:white !important;
+}
+header{
+	padding:40px 0;
+}
+/*menu start*/
+
+.background_image{
+	background-image: url(../images/Escape.jpg);
+	background-size: cover;
+}
+.logo{
+	position: absolute;
+    left: 100px;
+    bottom: 15px;
+}
+.menu ul li a{
+	transition: 1s;
+	color:white !important;
+	font-size: 18px;
+	font-weight: 500 !important;
+	font-family: Brandon_med;
+	padding:0 15px !important;
+}
+.menu ul li:last-child a{
+	margin-right: 80px;
+	padding-right: 0 !important;
+}
+.menu ul li a:hover{
+	color:grey !important;
+}
+/*menu end*/
+/*banner start*/
+.banner_content{
+	margin-top:60px;
+	margin-bottom: 120px;
+}
+.banner_content h5{
+	margin-bottom: 40px;
+	font-size: 32px;
+	font-weight: 300;
+	font-family: Brandon_light;
+}
+.banner_content h1{
+	margin-bottom: 70px;
+	font-size: 66px;
+	font-weight: 700;
+
+}
+.banner_content button{
+	color:white !important;
+	font-size: 23px;
+	font-weight: 700;
+	font-family: brandon_reg;
+	border: 3px solid white;
+
+}
+/*banner end*/
+
+
